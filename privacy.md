@@ -5,7 +5,7 @@ title: Word Vault — Privacy Policy
 # Privacy Policy for Word Vault
 
 **Effective date:** 5 September 2026
-**Last updated:** 5 September 2026
+**Last updated:** 24 October 2026
 
 Word Vault is a vocabulary app published by Azizbek Khamidov
 ("we", "us"). This policy explains what happens to information when you use
@@ -18,9 +18,11 @@ your words, your categories, your study history, your name and avatar — is
 stored **only on your device** and is never sent to us. We cannot see it, we
 cannot recover it, and we do not have a copy.
 
-The one exception is advertising. Word Vault shows ads from Google AdMob, and
-Google collects information in order to serve them. That is the only data
-collection that happens, and this policy describes it below.
+There are two exceptions, both by Google and both described below. Word Vault
+shows ads from Google AdMob, and Google collects information in order to serve
+them. And on Android, when you scan a page, the text-recognition library Google
+supplies (ML Kit) sends Google anonymous information about how it is used. The
+page and its text are never sent.
 
 ## What stays on your device
 
@@ -34,8 +36,9 @@ app's own storage area:
   progress against your goal
 - Your profile — the display name and avatar you choose, your daily goal, and
   your streak record
-- Your settings: theme, interface language, selected content language, and
-  study reminder time
+- Your settings: theme, interface language, selected content language, study
+  reminder time, and your study plan (review effort and any exam date you set)
+- Automatic backup copies of all of the above, if you turn automatic backups on
 
 **None of this is transmitted anywhere.** The app makes no network request to
 retrieve or store any of it. There is no sign-in, no account, no user
@@ -48,12 +51,15 @@ feature so you can save a copy of it yourself — see "Backups and files" below.
 ## What we do not do
 
 - We do not ask for or store an email address, phone number or password.
-- We do not use analytics or usage tracking of any kind.
-- We do not use crash reporting.
+- We do not use analytics, usage tracking or crash reporting of our own. The
+  only usage information that leaves your phone is the scanning library's,
+  described under "Scanning a page".
 - We do not sell or share your vocabulary data with anyone, because we never
   receive it.
 - We do not track your location.
-- We do not access your contacts, photos, microphone or camera.
+- We do not access your contacts. The camera, your photos and the microphone
+  are used only when you start a feature that needs them, as described below,
+  and what they capture never leaves your device.
 
 ## Advertising
 
@@ -98,6 +104,47 @@ offline. Nothing about the purchase leaves your device by way of the app.
 Refunds, cancellations and billing questions are handled by Apple or Google
 under their terms, not by us.
 
+## Scanning a page
+
+"Scan a page" lets you photograph a page, or choose a photo, and pick out the
+words you don't know. The photo is read **on your device**: by Apple's Vision
+framework on iOS, and on Android by Google's ML Kit text recognition, whose
+model is built into the app. Neither the photo nor its text is sent anywhere.
+The app keeps only the words you choose to add; its temporary copy of the photo
+is deleted when you are done with it.
+
+On Android, the ML Kit library itself sends Google anonymous information about
+its use: device information (such as manufacturer, model and operating system
+version), the app's package name and version, a per-installation identifier
+that is not intended to identify you or your device, and performance metrics
+and error codes. Google uses it for diagnostics and usage analytics and does
+not transfer it to third parties. Details:
+<https://developers.google.com/ml-kit/android-data-disclosure>
+
+## Saying words aloud
+
+The "Say it" study mode listens while you say a word and checks it with the
+speech recognition **built into your phone**. The app only ever starts
+recognition that runs on the device: Android's on-device recognizer, or Apple's
+speech recognition with on-device processing required. Your voice is not
+recorded, stored or sent anywhere. Where on-device recognition is not
+available, the mode is switched off.
+
+## The word helper (iPhone)
+
+On iPhones with Apple Intelligence, the word helper can explain a word, give an
+example or check a sentence you write. It uses the language model built into
+the phone. Your words and sentences are processed on the device and are not
+sent to us.
+
+## Widgets
+
+If you add a Word Vault widget to your home screen or lock screen, it shows a
+word from your vault, how many words are due and your streak. The app writes
+that small snapshot to storage on your device that only the widget can read.
+Anyone who can see your screen can see the widget; remove it to stop showing
+it.
+
 ## Study reminders
 
 If you turn on study reminders, the app schedules a notification on your device
@@ -108,24 +155,35 @@ settings.
 
 ## Backups and files
 
-The app can export your vault as a file, and can import words from a file you
-choose.
+The app can export your vault as a file, keep automatic backups, and import
+words from a file you choose.
 
 - **Export** writes a file and hands it to your operating system's share
   sheet. Where it then goes — a messaging app, cloud storage, your own
   computer — is entirely your choice and is governed by whatever service you
   send it to. We never receive it.
-- **Import** reads a file you select with your device's document picker. The
-  app reads only the file you pick, and only when you pick it.
+- **Automatic backups**, if you turn them on, are kept in the app's own storage
+  on your device. You can also choose a folder for an extra copy, for example
+  in iCloud Drive or another cloud folder your phone offers. Your phone and that
+  service keep the folder in sync, under that service's terms. We never receive
+  the copy.
+- **Import** reads a file you select with your device's document picker: a
+  backup, a word list, an Anki deck or a Kindle vocabulary file. The app reads
+  only the file you pick, and only when you pick it.
 
 ## Permissions the app requests
 
 | Permission | Why |
 |---|---|
-| Internet | Only for advertising, the subscription store, and the ad consent form. No app data is sent or fetched. |
+| Internet and network state | Only for advertising, the subscription store, the ad consent form, and the scanning library's usage information on Android. No app data is sent or fetched. |
 | Notifications | Only if you turn on study reminders. |
 | Run at startup | So a scheduled reminder still arrives after you restart your phone. |
 | Vibration | Haptic feedback while using the app. |
+| Microphone (and speech recognition on iOS) | Only for the "Say it" study mode, when you start it. |
+| Camera and photos (iOS) | Only when you scan a page. On Android the app uses the system camera and photo picker and needs no permission of its own. |
+| Advertising ID | Used by Google AdMob as described under Advertising. Not used once you subscribe, because no ads are shown. |
+| Billing | To buy and check the Premium subscription through the store. |
+| Background work | Added by Google's advertising libraries to finish short scheduled tasks. |
 
 ## Children
 

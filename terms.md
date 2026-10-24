@@ -5,7 +5,7 @@ title: Word Vault — Terms of Service
 # Terms of Service for Word Vault
 
 **Effective date:** 5 September 2026
-**Last updated:** 5 September 2026
+**Last updated:** 24 October 2026
 
 These terms govern your use of the **Word Vault** mobile app, published by
 Azizbek Khamidov ("we", "us"). By installing or using the app, you agree to
@@ -53,10 +53,14 @@ plan.
 **What it includes:**
 
 - No advertising
-- Additional study modes: typing, multiple choice and listening
+- Additional study modes: typing, multiple choice, listening, fill the gap and
+  say it
 - Detailed statistics
-- Exporting and backing up your vault
+- Exporting and backing up your vault, including automatic backups and copies
+  in a folder you choose
 - Adding content languages beyond English, Russian and Uzbek
+- Adding words from the topic starter packs
+- On iPhones that support it, the on-device word helper
 
 **Payment, renewal and cancellation.** Subscriptions are sold and billed by the
 Google Play Store or the Apple App Store, not by us. The price shown in the app
@@ -76,8 +80,9 @@ subject to their discretion, not ours.
 **What happens when a subscription ends.** You keep everything you created.
 Words, categories, study history and any content language you added while
 subscribed all remain available, and you can still import and restore your
-data. What stops is the ability to *add* new content languages, the additional
-study modes, detailed statistics and export, and ads return. **You are never
+data. What stops is the ability to *add* new content languages and topic-pack words,
+the additional study modes, the word helper, detailed statistics, export and
+backups, and ads return. **You are never
 locked out of your own words.**
 
 **Price changes.** If we change the subscription price, the stores will notify
