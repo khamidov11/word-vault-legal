@@ -10,4 +10,4 @@ Legal documents for the **Word Vault** vocabulary app for Android and iOS.
 - [Terms of Service](terms)
 
 Word Vault has no accounts and no servers. Everything you save stays on your
-device. Contact: [me@azizbek.co.uz](mailto:me@azizbek.co.uz)
+device. Contact: [mail@azizbek.me](mailto:mail@azizbek.me)

@@ -5,7 +5,7 @@ title: Word Vault — Privacy Policy
 # Privacy Policy for Word Vault
 
 **Effective date:** 5 September 2026
-**Last updated:** 24 October 2026
+**Last updated:** 29 October 2026
 
 Word Vault is a vocabulary app published by Azizbek Khamidov
 ("we", "us"). This policy explains what happens to information when you use
@@ -217,7 +217,7 @@ release notes on the store listing.
 
 Questions about this policy or about the app:
 
-**me@azizbek.co.uz**
+**mail@azizbek.me**
 
 Azizbek Khamidov
 Tashkent, Uzbekistan

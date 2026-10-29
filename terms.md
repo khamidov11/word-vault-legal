@@ -5,7 +5,7 @@ title: Word Vault — Terms of Service
 # Terms of Service for Word Vault
 
 **Effective date:** 5 September 2026
-**Last updated:** 24 October 2026
+**Last updated:** 29 October 2026
 
 These terms govern your use of the **Word Vault** mobile app, published by
 Azizbek Khamidov ("we", "us"). By installing or using the app, you agree to
@@ -138,7 +138,7 @@ mandatory consumer-protection law in your country of residence.
 
 ## Contact
 
-**me@azizbek.co.uz**
+**mail@azizbek.me**
 
 Azizbek Khamidov
 Tashkent, Uzbekistan
